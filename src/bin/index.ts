@@ -14,7 +14,7 @@ program
     if (type == 'init') {
       await fs.writeFileSync(`${process.cwd()}/api_config.json`,
         ` {
-          "origin:yapi.**.com",
+          "origin":"yapi.**.com",
           "token":"9d707841b4c53adbda3e679b3e9bab5f0bad8fdbcdea144507648b0a8ec0ef83",
           "api_id":80146,
           "types_dest":"/src/data/index.ts",

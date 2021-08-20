@@ -20,12 +20,13 @@ const getData = {
 export const generate = async (config: APIConfig) => {
     const { types_dest, api_id, schema_name, token, types_config, origin } = config
     const apiSource = await getData.byId(origin, token, api_id)
-
     const types = await compile(JSON.parse(apiSource.res_body), schema_name || 'Schema', {
         bannerComment: ''
     })
 
     const outputypes = typesProcessor(types, types_config)
+    console.log(outputypes);
+
     fs.writeFileSync(process.cwd() + types_dest, outputypes)
 }
 

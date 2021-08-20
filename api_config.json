@@ -1,0 +1,10 @@
+{
+  "origin": "apihub-test.zhenguanyu.com",
+  "token": "9d707841b4c53adbda3e679b3e9bab5f0bad8fdbcdea144507648b0a8ec0ef83",
+  "api_id": 96985,
+  "types_dest": "/src/data/index.ts",
+  "schema_name": "",
+  "types_config": {
+    "list_entity_name": "Channel"
+  }
+}

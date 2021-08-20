@@ -1,7 +1,7 @@
 {
-  "name": "yatype",
-  "version": "0.0.3",
-  "description": "",
+  "name": "yapitype",
+  "version": "0.0.5",
+  "description": "yapitype",
   "main": "index.js",
   "bin": {
     "yapitype": "lib/src/bin/index.js"
@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cli": "lib/src/bin/index.js"
   },
-  "author": "",
+  "author": "hugo1o1",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
@@ -31,5 +31,22 @@
     "@types/urijs": "^1.19.15",
     "copyfiles": "^2.4.1",
     "rimraf": "^3.0.2"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugo1o1/yatype.git"
+  },
+  "keywords": [
+    "yapi",
+    "typescript",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/hugo1o1/yatype/issues"
+  },
+  "homepage": "https://github.com/hugo1o1/yatype#readme"
 }
